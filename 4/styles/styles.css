@@ -4,8 +4,8 @@
   font-family: "Rubik";
   font-style: normal;
   font-weight: 400;
-  src: url("fonts/rubik-400.woff2") format("woff2"),
-    url("fonts/rubik-400.woff") format('woff');
+  src: url("../fonts/rubik/rubik-400.woff2") format("woff2"),
+    url("../fonts/rubik/rubik-400.woff") format('woff');
   font-display: swap;
 }
 
@@ -13,8 +13,8 @@
   font-family: "Rubik";
   font-style: normal;
   font-weight: 700;
-  src: url("fonts/rubik-700.woff2") format("woff2"),
-    url("fonts/rubik-700.woff") format('woff');
+  src: url("../fonts/rubik/rubik-700.woff2") format("woff2"),
+    url("../fonts/rubik/rubik-700.woff") format('woff');
   font-display: swap;
 }
 
@@ -22,8 +22,8 @@
   font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
-  src: url("fonts/raleway-800.woff2") format("woff2"),
-    url("fonts/raleway-800.woff") format('woff');
+  src: url("../fonts/raleway/raleway-800.woff2") format("woff2"),
+    url("../fonts/raleway/raleway-800.woff") format('woff');
   font-display: swap;
 }
 
@@ -73,6 +73,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
+  cursor: pointer;
 }
 
 /* Pages */
@@ -85,6 +86,15 @@ body {
 .search-form {
   font-size: 14px;
   line-height: 20px;
+}
+
+.search-form-field {
+  font-family: inherit;
+}
+
+.search-form-submit {
+  font-family: inherit;
+  cursor: pointer;
 }
 
 /* User-navigation */
@@ -157,6 +167,14 @@ body {
   color: var(--basic-dark);
 }
 
+.slider-pagination-button {
+  cursor: pointer;
+}
+
+.slider-button {
+  cursor: pointer;
+}
+
 /* Main-category */
 
 .category-list {
@@ -176,6 +194,10 @@ body {
 }
 
 /* Services */
+
+.services-list {
+  list-style: none;
+}
 
 .services-text {
   color: var(--basic-dark)
@@ -199,6 +221,10 @@ body {
 
 .truck-icon-wrapper {
   background-color: var(--special-yellow);
+}
+
+.delivery-button {
+  cursor: pointer;
 }
 
 /* About and Contacts */
@@ -247,6 +273,11 @@ body {
   line-height: 21px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
+  cursor: pointer;
+}
+
+.subscribe-field {
+  font-family: inherit;
 }
 
 /* Footer */
@@ -303,6 +334,7 @@ body {
 }
 
 .modal-field {
+  font-family: inherit;
   background-color: var(--basic-light);
 }
 
@@ -349,6 +381,10 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
+}
+
+.select-control {
+  font-family: inherit;
 }
 
 .catalog-products {
@@ -402,4 +438,8 @@ body {
   letter-spacing: 0.2em;
   color: var(--basic-black);
   text-transform: uppercase;
+}
+
+.pagination-show-more {
+  cursor: pointer;
 }
